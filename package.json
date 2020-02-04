@@ -1,0 +1,33 @@
+{
+  "name": "wc-upgrader",
+  "version": "1.0.0",
+  "description": "WC-Upgrader is a JS Utility that 'upgrades' elements to the specified custom element when they are defined. ",
+  "main": "wc-upgrader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebBraaten/wc-upgrader.git"
+  },
+  "keywords": [
+    "Web",
+    "Components",
+    "Custom",
+    "Elements",
+    "Client",
+    "Side",
+    "Vanilla",
+    "JS"
+  ],
+  "author": "Caleb Braaten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CalebBraaten/wc-upgrader/issues"
+  },
+  "homepage": "https://github.com/CalebBraaten/wc-upgrader#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "flashy-header": "^1.0.0"
+  }
+}

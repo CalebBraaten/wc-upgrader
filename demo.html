@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Upgrader</title>
+  </head>
+  <body>
+    <h1>Basic Header</h1>
+    <flashy-header>Flashy Header</flashy-header>
+    <h1 id="upgrade">Basic Header Upgrdaed (Delay)</h1>
+  </body>
+
+  <script src="node_modules/flashy-header/flashy-header.js"></script>
+  
+  <script type="module">
+    import wcUpgrader from './wc-upgrader.mjs'
+
+    const Upgrader = new wcUpgrader();
+
+    setTimeout(() => {
+      Upgrader.upgradeOnDefined('flashy-header', '#upgrade');
+    }, 1500);
+  </script>
+</html>
